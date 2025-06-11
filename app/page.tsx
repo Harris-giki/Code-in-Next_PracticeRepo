@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import ProductCard from "./components/ProductCard";
 export default function Home() {
   return (
     <main>
@@ -9,6 +9,7 @@ export default function Home() {
       <a href="/users">Users - non optimal way</a>
       <br />
       <Link href="/users">Users - the optimal way</Link>
+      <ProductCard />
     </main>
   );
 }
