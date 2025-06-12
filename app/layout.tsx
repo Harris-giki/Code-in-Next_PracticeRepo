@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="cupcake">
       <body className={inter.className}>{children}</body>
       {/* the children in the body changes dynamically as per the person's position in the application*/}
     </html>
